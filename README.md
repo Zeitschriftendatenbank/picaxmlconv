@@ -64,8 +64,8 @@ For ```CK\PicaXMLConv::convert``` and ```CK\PicaXMLConv::validate``` string is e
 
 ### XSL
 - [ppxml to picaXML](https://raw.githubusercontent.com/Zeitschriftendatenbank/picaxmlconv/master/res/xsl/ppxmlToPicaXML.xsl)
-- [picaXML to ppxml](https://raw.githubusercontent.com/Zeitschriftendatenbank/php-marc-spec/master/res/xsl/picaXMLToPpxml.xsl)
+- [picaXML to ppxml](https://raw.githubusercontent.com/Zeitschriftendatenbank/picaxmlconv/master/res/xsl/picaXMLToPpxml.xsl)
 
 ### XSD
-- [ppxml-1.0.xsd](https://raw.githubusercontent.com/Zeitschriftendatenbank/php-marc-spec/master/res/xsd/ppxml-1.0.xsd)
-- [pica-xml-v1-0.xsd](https://raw.githubusercontent.com/Zeitschriftendatenbank/php-marc-spec/master/res/xsd/pica-xml-v1-0.xsd)
+- [ppxml-1.0.xsd](https://raw.githubusercontent.com/Zeitschriftendatenbank/picaxmlconv/master/res/xsd/ppxml-1.0.xsd)
+- [pica-xml-v1-0.xsd](https://raw.githubusercontent.com/Zeitschriftendatenbank/picaxmlconv/master/res/xsd/pica-xml-v1-0.xsd)
