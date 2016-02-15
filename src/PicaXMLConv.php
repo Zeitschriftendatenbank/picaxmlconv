@@ -113,7 +113,9 @@ class PicaXMLConv
         $proc = new XSLTProcessor;
         $proc->importStyleSheet($xsl);
         
-        return $this->target = $proc->transformToDoc($this->source);
+        $this->target = $proc->transformToDoc($this->source);
+        
+        return $this->target->saveXML();
     }
     
     /**

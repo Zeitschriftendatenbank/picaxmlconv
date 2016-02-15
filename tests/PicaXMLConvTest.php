@@ -127,12 +127,13 @@ class PicaXMLConvTest extends \PHPUnit_Framework_TestCase
     
     public function testReadmeExample()
     {
-        $picaXML = $this->conv->convert($this->getFixture('ppxml_single_withcopies'));
-        
-        $this->assertSame('DOMDocument',get_class($picaXML));
+        $this->conv->convert($this->getFixture('ppxml_single_withcopies'));
+        $source = $this->conv->getSource();
+        $target = $this->conv->getTarget();
+        $this->assertSame('DOMDocument',get_class($target));
         $picaXMLDom = new DOMDocument;
         $picaXMLDom->load($this->getFixture('picaXML_single_withcopies'));
-        $this->assertSame(count($picaXML->getElementsByTagName('datafield')),count($picaXMLDom->getElementsByTagName('datafield')));
+        $this->assertSame(count($source->getElementsByTagName('datafield')),count($picaXMLDom->getElementsByTagName('datafield')));
         
         $this->assertTrue($this->conv->validate($picaXMLDom));
         $this->assertSame('info:srw/schema/5/picaXML-v1.0',$this->conv->getNamespace());

@@ -11,22 +11,48 @@ Converts PicaXML (namespace info:srw/schema/5/picaXML-v1.0) and ppxml (namespace
 ```php
 require vendor/autoload.php;
 
+use CK\PicaXMLConv\PicaXMLConv;
+
 $pconv = new PicaXMLConv;
 
 $picaXML = $pconv->convert('/path/to/ppxml.xml');
 
-print get_class($picaXML);          # print DOMDocument
-print $picaXML->saveXML();          # prints XML
+print $picaXML;                                  # XML
+print get_class($picaXML->getSource());          # DOMDocument
+
 
 if($pconv->validate($picaXML)) {
-    print $pconv->getNamespace();   # prints info:srw/schema/5/picaXML-v1.0
+    print $pconv->getNamespace();                # info:srw/schema/5/picaXML-v1.0
     $pconv->convert();
     $pconv->validate($pconv->getTarget());
-    print $pconv->getNamespace();   # prints http://www.oclcpica.org/xmlns/ppxml-1.0
+    print $pconv->getNamespace();                # http://www.oclcpica.org/xmlns/ppxml-1.0
 }
 ```
 
+### Usage with HAB\Pica\Reader\PicaXmlReader
+
+    composer require ck/picaxmlconv hab/picareader
+
+```php
+require vendor/autoload.php;
+
+use CK\PicaXMLConv\PicaXMLConv;
+use HAB\Pica\Reader\PicaXmlReader;
+
+$pconv = new PicaXMLConv;
+$picaXML = $pconv->convert('/path/to/ppxml.xml');
+
+$reader = new PicaXmlReader;
+$reader->open($picaXML);
+while($record = $reader->read()) {
+    ...
+}
+$reader->close();
+```
+
 ## API
+
+For ```CK\PicaXMLConv::convert``` and ```CK\PicaXMLConv::validate``` string is either XML or a valid file path.
 
 - CK\PicaXMLConv::convert(string|DOMDocument)
 - CK\PicaXMLConv::validate(string|DOMDocument)
