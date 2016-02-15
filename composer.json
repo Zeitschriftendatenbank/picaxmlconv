@@ -1,0 +1,18 @@
+{
+    "name": "ck/picaxmlconv",
+    "description": "Converts picaXML and ppmxl vive versa.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carsten Klee",
+            "email": "cKlee@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "lib-libxml": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}

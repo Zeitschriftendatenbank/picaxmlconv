@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<record xmlns="info:srw/schema/5/picaXML-v1.0">
+  <datafield tag="001@">
+    <subfield code="0">11,21-22,63,65,69,130,156,285,597</subfield>
+  </datafield>
+  <datafield tag="001A">
+    <subfield code="0">2004:24-10-12</subfield>
+  </datafield>
+  <datafield tag="001B">
+    <subfield code="0">2026:03-12-15</subfield>
+    <subfield code="t">15:13:23.000</subfield>
+  </datafield>
+  <datafield tag="001D">
+    <subfield code="0">2004:01-11-12</subfield>
+  </datafield>
+  <datafield tag="001U">
+    <subfield code="0">utf8</subfield>
+  </datafield>
+  <datafield tag="001X">
+    <subfield code="0">0</subfield>
+  </datafield>
+  <datafield tag="002@">
+    <subfield code="0">Advz</subfield>
+  </datafield>
+  <datafield tag="003@">
+    <subfield code="0">728437554</subfield>
+  </datafield>
+  <datafield tag="003O">
+    <subfield code="a">OCoLC</subfield>
+    <subfield code="0">930873254</subfield>
+  </datafield>
+  <datafield tag="006G">
+    <subfield code="0">1027146724</subfield>
+  </datafield>
+  <datafield tag="006Z">
+    <subfield code="0">26879438</subfield>
+  </datafield>
+  <datafield tag="007G">
+    <subfield code="c">ZDB</subfield>
+    <subfield code="0">26879438</subfield>
+  </datafield>
+  <datafield tag="010@">
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield tag="011@">
+    <subfield code="a">2010</subfield>
+    <subfield code="n">2010-</subfield>
+  </datafield>
+  <datafield tag="019@">
+    <subfield code="a">XA-GB</subfield>
+    <subfield code="a">XD-US</subfield>
+  </datafield>
+  <datafield tag="021A">
+    <subfield code="a">Directory of world cinema</subfield>
+  </datafield>
+  <datafield tag="031@">
+    <subfield code="a">1.2010 -</subfield>
+  </datafield>
+  <datafield tag="031N">
+    <subfield code="d">1</subfield>
+    <subfield code="j">2010</subfield>
+    <subfield code="6"/>
+  </datafield>
+  <datafield tag="033A">
+    <subfield code="p">Bristol [u.a.]</subfield>
+    <subfield code="n">Intellect</subfield>
+  </datafield>
+  <datafield tag="044K">
+    <subfield code="9">104559683</subfield>
+    <subfield code="M">Tsv1</subfield>
+    <subfield code="a">Film</subfield>
+    <subfield code="0">gnd/4017102-4</subfield>
+  </datafield>
+  <datafield tag="045F">
+    <subfield code="e">22sdnb</subfield>
+    <subfield code="a">791</subfield>
+  </datafield>
+  <datafield tag="045G">
+    <subfield code="a">791</subfield>
+    <subfield code="A">DNB</subfield>
+  </datafield>
+  <datafield tag="045Q" occurrence="01">
+    <subfield code="9">106405918</subfield>
+    <subfield code="a">24.34</subfield>
+    <subfield code="j">Filmgattungen</subfield>
+    <subfield code="j">Filmsparten</subfield>
+  </datafield>
+  <datafield tag="045V">
+    <subfield code="a">6,23</subfield>
+  </datafield>
+</record>

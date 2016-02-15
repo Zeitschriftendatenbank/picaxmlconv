@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<ppxml:record xmlns:ppxml="http://www.oclcpica.org/xmlns/ppxml-1.0">
+    <ppxml:global opacflag="" status="">
+        <ppxml:tag id="001@" occ="">
+            <ppxml:subf id="0">11-12,66</ppxml:subf>
+            <ppxml:subf id="a">3</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="001A" occ="">
+            <ppxml:subf id="0">0517:24-10-12</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="001B" occ="">
+            <ppxml:subf id="0">0003:29-07-14</ppxml:subf>
+            <ppxml:subf id="t">13:56:56.000</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="001D" occ="">
+            <ppxml:subf id="0">9001:23-07-13</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="001U" occ="">
+            <ppxml:subf id="0">utf8</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="001X" occ="">
+            <ppxml:subf id="0">0</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="002@" occ="">
+            <ppxml:subf id="0">Advz</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="003@" occ="">
+            <ppxml:subf id="0">1027146724</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="006Z" occ="">
+            <ppxml:subf id="0">2687943-8</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="007G" occ="">
+            <ppxml:subf id="a">ZDB</ppxml:subf>
+            <ppxml:subf id="0">2687943-8</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="010@" occ="">
+            <ppxml:subf id="a">eng</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="011@" occ="">
+            <ppxml:subf id="a">2010</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="019@" occ="">
+            <ppxml:subf id="a">XA-GB</ppxml:subf>
+            <ppxml:subf id="a">XD-US</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="021A" occ="">
+            <ppxml:subf id="a">Directory of world cinema</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="031@" occ="">
+            <ppxml:subf id="a">1.2010 -</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="031N" occ="">
+            <ppxml:subf id="d">1</ppxml:subf>
+            <ppxml:subf id="j">2010</ppxml:subf>
+            <ppxml:subf id="6"/>
+        </ppxml:tag>
+        <ppxml:tag id="033A" occ="">
+            <ppxml:subf id="p">Bristol [u.a.]</ppxml:subf>
+            <ppxml:subf id="n">Intellect</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="045T" occ="">
+            <ppxml:subf id="a">6,23</ppxml:subf>
+        </ppxml:tag>
+        <ppxml:tag id="045U" occ="">
+            <ppxml:subf id="e">791</ppxml:subf>
+        </ppxml:tag>
+    </ppxml:global>
+</ppxml:record>
